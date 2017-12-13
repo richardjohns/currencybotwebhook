@@ -1,0 +1,26 @@
+{
+  "name": "currencybot",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon webhook.js",
+    "ngrok": "ngrok http 3000",
+    "start": "node webhook.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardjohns/currencybotwebhook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardjohns/currencybotwebhook/issues"
+  },
+  "homepage": "https://github.com/richardjohns/currencybotwebhook#readme",
+  "dependencies": {
+    "ngrok": "^2.2.24",
+    "request": "^2.83.0",
+    "restify": "^6.3.4"
+  }
+}
